@@ -1,0 +1,19 @@
+.Footer
+{
+    background-color: #1F1D1B;
+    color: aliceblue;
+    padding: 10px 0 10px 0;
+}
+hr{
+    border-width: 3px;
+    color: #fff;
+}
+ul
+{
+    list-style: none;
+    padding-left: 0;
+}
+li
+{
+    
+}

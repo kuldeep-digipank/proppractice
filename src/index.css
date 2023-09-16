@@ -1,0 +1,26 @@
+body {
+
+}
+
+h2
+{
+  color: #0A9E88;
+}
+
+.overlay
+{
+    position: absolute;
+    z-index: 1;
+    top:0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0.5;
+    content: "";
+    background-color: black;
+    border-radius: 5px;
+}
+.app-container
+{
+  margin: 15px 21px 0 21px;
+}

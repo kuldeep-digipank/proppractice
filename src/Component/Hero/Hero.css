@@ -1,0 +1,29 @@
+.hero
+{
+    height: 100vh;
+    position: relative;
+}
+.overlay
+{
+    opacity: 0.59;
+background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #1F1D1B 82.72%) !important;
+}
+.banner
+{
+    width: 896px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+}
+.banner p
+{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 700;
+}
+.inp
+{
+    width: 690px;
+}

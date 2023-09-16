@@ -1,0 +1,55 @@
+.card
+{
+    position: relative;
+}
+.card .overlay
+{
+    position: absolute;
+    z-index: 1;
+    top:0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0.5;
+    content: "";
+    background-color: black;
+    border-radius: 5px;
+}
+.card .card-text1
+{
+    position: absolute;
+    z-index: 2;
+    margin-top: 20px;;
+    content: "";
+    
+    color: #fff;
+    font-size: 24px;
+    left:20px;
+    
+}
+.card .card-text2
+{
+    position: absolute;
+    z-index: 2;
+    left:20px;
+    content: "";
+    
+    
+    color: #fff;
+    font-size: 16px;
+    bottom: 40px;
+    
+}
+.card .card-text3
+{
+    position: absolute;
+    z-index: 2;
+    content: "";
+    
+    
+    color: #fff;
+    font-size: 30px;
+    left:20px;
+    bottom: 0px;;
+    
+}
