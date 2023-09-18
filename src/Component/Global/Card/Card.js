@@ -10,7 +10,7 @@ function Card(prop) {
                 </div>
                 <div className='d-flex justify-content-between'>
                     <div>
-                        <>Location</>
+                        <></>
                         <>{prop.location}</>
                     </div>
                     <div>
