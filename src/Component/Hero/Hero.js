@@ -4,7 +4,7 @@ import './Hero.css'
 function Hero() {
   return (
     <div className='hero' style={{backgroundImage:`url(${img})`}}>
-        <div className='overlay'></div>
+        
         <div className='banner'>
         <p className='text-center'>Neque porro quisquam est qui dolorem ipsum 
         quia dolor sit amet</p>

@@ -3,3 +3,31 @@
     opacity: 0.59;
     background-color: #1F1D1B;
 }
+.btn-nav
+{
+    color: #fff;
+    background-color: #0A9E88;
+    border-radius: 30px;
+    padding: 8px 22px 8px 22px;
+}
+.btn-nav:hover
+{
+    color: #fff;
+    background-color: #0A9E88;
+    border-radius: 30px;
+    padding: 8px 22px 8px 22px;
+}
+.btn-outline-nav
+{
+    color: #fff;
+    border-color: #fff;
+    border-radius: 30px;
+    padding: 8px 22px 8px 22px;
+}
+.btn-outline-nav:hover
+{
+    color: #fff;
+    border-color: #fff;
+    border-radius: 30px;
+    padding: 8px 22px 8px 22px;
+}
