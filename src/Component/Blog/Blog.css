@@ -22,3 +22,23 @@
     width: 68px;
     height: 68px;
 }
+/* .blog
+{
+    content: "";
+    background-color: #0A9E88;
+    width: 10px ;
+    height: 10px;
+} */
+.slide-dot
+{
+    position: relative;   
+}
+.dot
+{
+    content: "";
+    position: relative;
+    background-color: #0A9E88;
+    width: 10px ;
+    height: 10px;
+    top: 0;
+}

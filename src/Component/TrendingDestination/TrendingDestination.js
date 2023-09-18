@@ -1,6 +1,8 @@
     import Card from '../Global/Card/Card';
 import './TrendingDestination.css';
 import img from '../../images/png/trendingDestination.png';
+import left from '../../images/svg/left.svg'
+import right from '../../images/svg/right.svg'
 function TrendingDestination()
 {
     const loc="delhi";
@@ -15,8 +17,12 @@ function TrendingDestination()
                 Experience of India's trending destinations, where ancient traditions intertwine with modern charm, offering a rich tapestry
                 of cultural richness and breathtaking natural beauty for travelers to indulge in.
                 </p>
-                <h2 className='text-end'>View Blogs</h2>
-                <div className='row'>
+                <p className='text-end text-pr'>View Blogs</p>
+                <div className='row blog-card-collection'>
+                    
+           <img src={left} className='slide-left'></img>
+              <img src={right} className='slide-right'></img>
+             
                     <div className='col-lg-4'>
                     <Card image={img} location={loc} star={rating} paragraph={para} price={price}></Card>
                     </div>

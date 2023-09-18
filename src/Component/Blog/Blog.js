@@ -21,7 +21,7 @@ function Blog() {
 
            <img src={left} className='slide-left'></img>
               <img src={right} className='slide-right'></img>
-             
+              <p className='text-end text-pr'>View Blogs</p>
             <div className='col-lg-4'>
                     <Card image={img} location={loc} star={rating} paragraph={para} hasprice="true"></Card>
                     </div>
@@ -32,7 +32,12 @@ function Blog() {
                     <Card image={img} location={loc} star={rating} paragraph={para} hasprice="true"></Card>
                     </div>
             </div>
-            <div></div>
+            {/* <div className='slide-dot'>
+              <div className='dot'></div>
+              <div className='dot'></div>
+              <div className='dot'></div>
+              <div className='dot'></div>
+            </div> */}
         </div>
     </div>
   )
