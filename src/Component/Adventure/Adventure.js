@@ -1,6 +1,7 @@
 import './Adventure.css'
 import React from 'react'
 import video from '../../video/video.mp4'
+import playico from '../../images/svg/play.svg'
 function Adventure() {
     return (
         <div className='app-container'>
@@ -9,7 +10,9 @@ function Adventure() {
                 heal and feel happy.</p>
             <div className='video'>
                 <div className='overlay'></div>
-                <div className='playbutton'></div>
+                <div className='playbutton'>
+                    <img src={playico} className='play'></img>
+                </div>
                 <video autoPlay="autoplay" muted className='mx-auto video'>
                     <source src={video} type="video/mp4"></source>
                         Your browser does not support the video tag.

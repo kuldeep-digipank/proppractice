@@ -8,6 +8,7 @@ import Blog from './Component/Blog/Blog';
 import Footer from './Component/Footer/Footer';
 import Navbar from './Component/Navbar/Navbar';
 import Hero from './Component/Hero/Hero';
+import Testimonial from './Component/Testimonial/Testimonial';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <SpecialHolidayDestination />
         <Adventure />
         <Blog></Blog>
+        <Testimonial />
         <Footer />
     </div>
   );

@@ -1,5 +1,7 @@
 import Button from '../Button/Button';
 import './Card.css'
+import loc from '../../../images/svg/loc.svg'
+import star from '../../../images/svg/star.svg'
 
 function Card(prop) {
     return (
@@ -8,13 +10,14 @@ function Card(prop) {
                 <div className='image'>
                     <img src={prop.image} className='img-fluid'></img>
                 </div>
-                <div className='d-flex justify-content-between'>
+                <div className='d-flex justify-content-between my-2'>
                     <div>
-                        <></>
+                        <img src={loc}></img>
                         <>{prop.location}</>
                     </div>
                     <div>
-                        <>star</>
+                        
+                        <img src={star}></img>
                         <>{prop.star}</>
                     </div>
 
