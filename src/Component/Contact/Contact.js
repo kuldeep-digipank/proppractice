@@ -12,7 +12,7 @@ function Contact()
                     Just Fill in Your Details</p>
                     </div>
                     <div className='col-lg-6'>
-                        <div className=' contact-card m-2 my-4'>
+                        <div className=' contact-card m-2 my-5'>
                             <div className='card-body'>
                                 <input className='form-control'/>
                                 <input className='form-control'/>

@@ -2,7 +2,7 @@ import img from '../../images/png/testimonial.png'
 function Testimonial()
 {
     return(
-        <div className='app-container my-2'>
+        <div className='app-container my-5'>
             <h2 className='text-center'>Why to choose us</h2>
             <div className='row'>
                 <div className='col-lg-6'>

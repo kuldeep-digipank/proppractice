@@ -9,7 +9,7 @@ function TrendingDestination()
     const price = "10,000";
     return(
         <>
-            <div className='trendingdestination'>
+            <div className='trendingdestination my-5'>
                 <h2>Trending Destination</h2>
                 <p>
                 Experience of India's trending destinations, where ancient traditions intertwine with modern charm, offering a rich tapestry

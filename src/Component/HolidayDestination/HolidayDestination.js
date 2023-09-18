@@ -4,7 +4,7 @@ import React from 'react'
 
 function HolidayDestination() {
   return (
-    <div className='HolidayDestination'>
+    <div className='HolidayDestination my-5'>
                 <h2>Trending Holiday Destination</h2>
                 <p>
                 Amazing travel destinations filled with diverse cultures and stunning natural scenery. Dive into the vibrant mix of old traditions and modern charm. Visit these top hotspots
