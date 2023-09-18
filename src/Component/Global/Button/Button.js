@@ -1,9 +1,9 @@
 import './Button.css'
-function Button()
+function Button({children})
 {
     return(
         
-        <button className="btn btn-pr">Buy Now</button>
+        <button className="btn btn-pr">{children}</button>
     )
 }
 export default Button;

@@ -5,7 +5,7 @@ import star from '../../../images/svg/star.svg'
 
 function Card(prop) {
     return (
-        <div className="card rounded">
+        <div className="card rounded blog-card">
             <div className="card-body">
                 <div className='image'>
                     <img src={prop.image} className='img-fluid'></img>
@@ -35,7 +35,7 @@ function Card(prop) {
                         <span className='price'>&nbsp;&nbsp;Rs. {prop.price}</span>
                         
                     </div>
-                    <Button></Button>
+                    <Button>Buy Now</Button>
                 </div>
                 }
             </div>

@@ -9,7 +9,7 @@ function Hero() {
         <p className='text-center'>Neque porro quisquam est qui dolorem ipsum 
         quia dolor sit amet</p>
         <div className='inp d-flex justify-content-center '>
-        <input className='form-control '/>
+        <input className='input-hero ' placeholder='Search here'/>
         </div>
         </div>
     </div>

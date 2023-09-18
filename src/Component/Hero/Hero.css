@@ -23,7 +23,13 @@ background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #1F1D1B 82.72%) !imp
     color: #fff;
     font-weight: 700;
 }
-.inp
+.input-hero
 {
     width: 690px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+}
+.input-hero[type=text]
+{
+    font-weight: bold;
 }
