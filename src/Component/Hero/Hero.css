@@ -23,13 +23,48 @@ background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #1F1D1B 82.72%) !imp
     color: #fff;
     font-weight: 700;
 }
+.inp
+{
+    position: relative;
+    padding: 10px 22px 10px 22px;
+}
+.white-overlay
+{
+    position: absolute;
+    content: "";
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    background-color: #fff;
+    z-index: -1;
+    opacity: 0.5;
+    border-radius: 30px;
+}
 .input-hero
 {
-    width: 690px;
-    padding: 10px 20px 10px 20px;
+    
+    width: 100%;
     border-radius: 30px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+}
+.input-hero::placeholder
+{
+    color: #fff;
+}
+.input-hero:focus
+{
+    outline: #0A9E88;
+
 }
 .input-hero[type=text]
 {
     font-weight: bold;
+}
+.search-ico
+{
+    /* padding: 10px 20px; */
 }
